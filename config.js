@@ -7,21 +7,21 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-multiverse/`, // This path is subpath of your hosting https://domain/portfolio
+  // pathPrefix: `/gatsby-starter-multiverse/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Mahukaman',
   subHeading: 'Photographer',
   // social
   socialLinks: [
-    {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/mahukaman',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/poloniusDEAD',
-    },
+  //  {
+  //    icon: 'fa-github',
+  //    name: 'Github',
+  //    url: 'https://github.com/mahukaman',
+  //  },
+  //  {
+  //    icon: 'fa-twitter',
+  //    name: 'Twitter',
+  //    url: 'https://twitter.com/poloniusDEAD',
+  //  },
     {
       icon: 'fa-instagram',
       name: 'Instagram',
