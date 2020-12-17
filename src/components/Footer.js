@@ -11,63 +11,31 @@ export default function Footer({ onClose, isVisible }) {
             <h2>More about me</h2>
             <p>
               Taking pictures across Japan with my trusty Sony a6400.
+              <br />This is a site dedicated to showcasing my portfolio to become an artist on Displate.
             </p>
           </section>
-          <section>
-            <h2>Follow me on ...</h2>
-            <ul className="icons">
-              {config.socialLinks.map(social => {
-                const { icon, name, url } = social;
-                return (
-                  <li key={url}>
-                    <a href={url} className={`icon ${icon}`}>
-                      <span className="label">{name}</span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
-          <hr />
-          <section>
-            <p>Created by Mahukaman, © 2020</p>
-          </section>
+
         </div>
         <div>
-          <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="#">
-              <div className="fields">
-                <div className="field half">
-                  <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div className="field half">
-                  <input
-                    type="text"
-                    name="email"
-                    id="email"
-                    placeholder="Email"
-                  />
-                </div>
-                <div className="field">
-                  <textarea
-                    name="message"
-                    id="message"
-                    rows="4"
-                    placeholder="Message"
-                  />
-                </div>
-              </div>
-              <ul className="actions">
-                <li>
-                  <input type="submit" value="Send" className="primary" />
+        <section>
+          <h2>Follow me on ...</h2>
+          <ul className="icons">
+            {config.socialLinks.map(social => {
+              const { icon, name, url } = social;
+              return (
+                <li key={url}>
+                  <a href={url} className={`icon ${icon}`}>
+                    <span className="label">{name}</span>
+                  </a>
                 </li>
-                <li>
-                  <input type="reset" value="Reset" />
-                </li>
-              </ul>
-            </form>
-          </section>
+              );
+            })}
+          </ul>
+        </section>
+        <hr />
+        <section>
+          <p>Created by Mahukaman, © 2020</p>
+        </section>
         </div>
       </div>
       <div
