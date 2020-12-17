@@ -28,6 +28,10 @@ export default function Footer({ onClose, isVisible }) {
               })}
             </ul>
           </section>
+          <hr />
+          <section>
+            <p>Created by Mahukaman, © 2020</p>
+          </section>
         </div>
         <div>
           <section>

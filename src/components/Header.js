@@ -16,6 +16,9 @@ export default function Header({ onAction = () => {} }) {
             <Link to="/Element" className="icon fa-plus">
               Elements
             </Link>
+            <Link to="/blog" className="icon fa-plus">
+              Blog
+            </Link>           
             <a
               href="#footer"
               onClick={e => onAction(e, 'about')}
