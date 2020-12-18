@@ -13,31 +13,31 @@ const img_set = [
   {
     src: require('../assets/images/full/fuji/05.jpg'),
     thumbnail: require('../assets/images/thumbnails/fuji/05.jpg'),
-    title: '',
+    title: 'Mt Fuji',
     desc: '',
   },
   {
     src: require('../assets/images/full/fuji/04.jpg'),
     thumbnail: require('../assets/images/thumbnails/fuji/04.jpg'),
-    title: '',
+    title: 'Mt Fuji at Dusk',
     desc: '',
   },
   {
     src: require('../assets/images/full/fuji/03.jpg'),
     thumbnail: require('../assets/images/thumbnails/fuji/03.jpg'),
-    title: '',
+    title: 'Temple Dragon',
     desc: '',
   },
   {
     src: require('../assets/images/full/fuji/02.jpg'),
     thumbnail: require('../assets/images/thumbnails/fuji/02.jpg'),
-    title: '',
+    title: 'Tree Engulfed by Mt Fuji',
     desc: '',
   },
   {
     src: require('../assets/images/full/fuji/01.jpg'),
     thumbnail: require('../assets/images/thumbnails/fuji/01.jpg'),
-    title: '',
+    title: 'Mt Fuji',
     desc: '',
   },
 
